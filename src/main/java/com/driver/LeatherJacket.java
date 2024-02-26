@@ -10,9 +10,7 @@ public class LeatherJacket extends Jacket {
 
     @Override
     public double calculatePrice() {
-        double basePrice = 0;
-        // your code goes here
-        return basePrice;
+        double basePrice = super.calculatePrice();
+        return basePrice + (hasFurLining ? 30.0 : 0.0);
     }
 }
-

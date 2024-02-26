@@ -13,4 +13,3 @@ public class Jacket {
         return 50.0; // Base price
     }
 }
-

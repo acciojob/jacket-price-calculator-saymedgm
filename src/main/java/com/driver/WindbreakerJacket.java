@@ -10,8 +10,7 @@ public class WindbreakerJacket extends Jacket {
 
     @Override
     public double calculatePrice() {
-        double basePrice = 0;
-        // your code goes here
-        return basePrice;
+        double basePrice = super.calculatePrice();
+        return basePrice + (waterproof ? 20.0 : 0.0);
     }
 }

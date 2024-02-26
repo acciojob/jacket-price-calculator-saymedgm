@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class JacketApp {
     public static void main(String[] args) {
-        List<Jacket> jackets = new ArrayList<Jacket>();
+        List<Jacket> jackets = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
@@ -56,7 +56,7 @@ public class JacketApp {
 
         System.out.println("Enter color: ");
         String color = scanner.next();
-        
+
         type = type.toLowerCase();
 
         if ("leather".equals(type)) {
